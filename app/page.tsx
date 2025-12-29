@@ -82,6 +82,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
       <Navbar />
+      
       {/* Animated Background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-blue-900/20" />
